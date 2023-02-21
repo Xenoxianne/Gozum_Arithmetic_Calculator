@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Arithmetic_Calculator"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
         Title="Arithmetic" Height="300" Width="500" ResizeMode="NoResize">
     <Grid Margin="0,0,0,0">
+        
         <!-- Input -->
         <Rectangle HorizontalAlignment="Center" Height="133" Margin="0,19,0,0" Stroke="Black" VerticalAlignment="Top" Width="430"/>
         <Label Content="Choose first number:" HorizontalAlignment="Left" Margin="106,50,0,0" VerticalAlignment="Top" FontStyle="Italic" FontSize="15"/>

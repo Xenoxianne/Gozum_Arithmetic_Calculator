@@ -26,6 +26,8 @@ namespace Arithmetic_Calculator
 			{
 				MessageBox.Show("You haven't entered a valid number in this text box!", "Error");
 				inputNum.Focus();
+				answerlbl.Visibility = Visibility.Collapsed;
+				Height = 300;
 				check = 1;
 				return 0;
 			}
@@ -38,7 +40,10 @@ namespace Arithmetic_Calculator
 				}
 				catch
 				{
-					MessageBox.Show("Integer/Float values only!", "Error");
+					MessageBox.Show("You haven't entered a valid number in this text box!", "Error");
+					inputNum.Text = " ";
+					answerlbl.Visibility = Visibility.Collapsed;
+					Height = 300;
 					inputNum.Focus();
 					check = 1;
 					return 0;
