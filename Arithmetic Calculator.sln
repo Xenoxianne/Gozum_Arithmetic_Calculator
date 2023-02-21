@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arithmetic Calculator", "Arithmetic Calculator\Arithmetic Calculator.csproj", "{FE493BEC-0853-4199-9625-824177003CAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE493BEC-0853-4199-9625-824177003CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE493BEC-0853-4199-9625-824177003CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE493BEC-0853-4199-9625-824177003CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE493BEC-0853-4199-9625-824177003CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3080FB39-6BB6-4F80-97B3-F0A5148FCE03}
+	EndGlobalSection
+EndGlobal
